@@ -30,7 +30,7 @@ int main()
 
         }
         div_count*=c+1;
-    }
+        }
     cout<<div_count<<" ";
 
     }
