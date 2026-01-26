@@ -18,7 +18,8 @@ public:
                 j--;
             }
             
-            nums[j + 1] = key; // Insert key at correct position
+            nums[j + 1] = key; // Insert key at correct position , 
+                              // j stops on element which is<=key
         }
         
         return nums;
